@@ -17,7 +17,7 @@ class LFUCache(BaseCaching):
         """ Assign to the dictionary self.cache_data the item value """
         if key is None or item is None:
             return
-        
+
         if key in self.cache_data:
             # Update the item and its frequency
             self.cache_data[key] = item
