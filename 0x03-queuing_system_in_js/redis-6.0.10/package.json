@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "nodemon --exec babel-node --presets @babel/preset-env 0-redis_client.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.x",
+    "@babel/cli": "^7.x",
+    "@babel/node": "^7.x",
+    "@babel/preset-env": "^7.x",
+    "nodemon": "^2.x"
+  }
+}
