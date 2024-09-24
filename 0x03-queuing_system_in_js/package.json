@@ -1,0 +1,20 @@
+{
+  "name": "0x03-queuing_system_in_js",
+  "version": "1.0.0",
+  "main": "0-redis_client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node --presets @babel/preset-env"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "redis": "^4.7.0"
+  }
+}
